@@ -1,0 +1,16 @@
+[package]
+name = "fias"
+version = "0.1.0"
+authors = ["Andrey Torsunov <andrey.torsunov@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+paste = "^0.1"
+failure = "^0.1"
+log = "^0.4"
+env_logger = "^0.7"
+
+# TODO: update to stable as soon as possible
+tokio = "0.2.0-alpha.6"
+hyper = "0.13.0-alpha.4"
+hyper-openssl = "0.8.0-alpha.4"
