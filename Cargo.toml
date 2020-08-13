@@ -9,6 +9,7 @@ paste = "^0.1"
 failure = "^0.1"
 log = "^0.4"
 env_logger = "^0.7"
+quick-xml = "^0.17"
 
 # TODO: update to stable as soon as possible
 tokio = "0.2.0-alpha.6"
